@@ -1,15 +1,3 @@
-const firstName = "Umidjon";
-const lastName = "Suvonov";
-
-console.log(firstName.concat(" " + lastName));
-console.log(firstName + " " + lastName);
-
-const n = 3;
-
-console.log(n ** 2, n ** 3);
-console.log(Math.pow(n, 2), Math.pow(n, 3));
-console.log(n * n, n * n * n);
-
 const number = 9;
 
 if (number % 2 === 0) {
