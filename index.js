@@ -1,8 +1,9 @@
-const n = 6;
-let sum = 0;
+// const string = "Suvonov Umidjon";
 
-for (let i = 1; i <= n; i++) {
-  sum += i;
+// console.log(string.split("").reverse().join(""));
+
+const string = "hello";
+
+for (let i = string.length - 1; i >= 0; i--) {
+  console.log(string[i]);
 }
-
-console.log(sum);
