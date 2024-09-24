@@ -1,12 +1,10 @@
-// const string = "Suvonov Umidjon";
+const n = 100;
+let sum = 0;
 
-// console.log(string.split("").reverse().join(""));
-
-const string = "hello";
-
-let result = "";
-
-for (let i = string.length - 1; i >= 0; i--) {
-  result += string[i];
+for (let i = 1; i <= n; i++) {
+  if (i % 2 === 0) {
+    sum += i;
+  }
 }
-console.log(result);
+
+console.log(sum);
