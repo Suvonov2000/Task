@@ -1,9 +1,3 @@
-const n = 200;
-let sum = 0;
+const string = "madam";
 
-for (let i = 1; i <= n; i++) {
-  if (i % 2 === 0) {
-    sum += i;
-  }
-}
-console.log(sum);
+console.log(string.split("").reverse().join(""));
