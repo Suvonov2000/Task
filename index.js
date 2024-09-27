@@ -1,3 +1,3 @@
-const string = "madam";
-
-console.log(string.split("").reverse().join(""));
+let str = "Hello world";
+let newStr = str.split("l").join("x");
+console.log(newStr);
