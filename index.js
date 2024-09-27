@@ -1,9 +1,9 @@
-const num = 15;
+let n = 100;
+let sum = 0;
 
-if (num / 3 && num / 5) {
-  console.log("Divisibility by both 3 or 5");
-} else if (num / 3) {
-  console.log("Divisibility by 3");
-} else if (num / 5) {
-  console.log("Divisibility by 5");
+for (let i = 1; i <= n; i++) {
+  if (i % 2 === 0) {
+    sum += i;
+  }
 }
+console.log(sum);
