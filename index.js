@@ -1,9 +1,7 @@
-const n = 100;
-let sum = 0;
+const n = 11;
 
-for (let i = 1; i <= n; i++) {
-  if (i % 2 === 0) {
-    sum += i;
-  }
+if (n % 2 === 0) {
+  console.log("prime");
+} else {
+  console.log("not prime");
 }
-console.log(sum);
