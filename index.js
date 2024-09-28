@@ -1,25 +1,8 @@
-let day = 3;
-switch (day) {
-  case 1:
-    console.log("Sunday");
-    break;
-  case 2:
-    console.log("Monday");
-    break;
-  case 3:
-    console.log("Tuesday");
-    break;
-  case 4:
-    console.log("Wednesday");
-    break;
-  case 5:
-    console.log("Thurthday");
-    break;
-  case 6:
-    console.log("Friday");
-    break;
-  case 7:
-    console.log("Saturday");
-    break;
-  default:
+const num = 15;
+if (num / 3 && num / 5) {
+  console.log("Divisibility by both 3 or 5");
+} else if (num / 3) {
+  console.log("Divisibility by 3");
+} else if (num / 5) {
+  console.log("Divisibility by 5");
 }
