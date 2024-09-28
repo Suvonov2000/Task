@@ -1,3 +1,3 @@
-let arr = [10, 20, 30, 40];
+const str = "JavaScript is fun";
 
-console.log(arr.indexOf(30));
+console.log(str.split(" ").length);
