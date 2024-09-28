@@ -1,8 +1,25 @@
-const n = 4;
-let sum = 0;
-
-for (let i = 1; i <= n; i++) {
-  sum += i;
+let day = 3;
+switch (day) {
+  case 1:
+    console.log("Sunday");
+    break;
+  case 2:
+    console.log("Monday");
+    break;
+  case 3:
+    console.log("Tuesday");
+    break;
+  case 4:
+    console.log("Wednesday");
+    break;
+  case 5:
+    console.log("Thurthday");
+    break;
+  case 6:
+    console.log("Friday");
+    break;
+  case 7:
+    console.log("Saturday");
+    break;
+  default:
 }
-
-console.log(sum);
