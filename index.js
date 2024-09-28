@@ -1,3 +1,8 @@
-let str = "Hello world";
-let newStr = str.replaceAll("l", "x");
-console.log(newStr);
+const n = 4;
+let sum = 0;
+
+for (let i = 1; i <= n; i++) {
+  sum += i;
+}
+
+console.log(sum);
