@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-const firstname = "Bakhtiyor";
-const lastname = "Mardonov";
-
-console.log(firstname + " " + lastname);
-console.log(`${firstname} ${lastname}`);
-console.log(firstname.concat(" ", lastname));
-=======
-const firstname = "Umidjon";
-const lastname = "Suvonov";
-
-console.log(`${firstname} ${lastname}`);
-
-console.log(firstname.concat(" ", lastname));
-
-console.log(firstname + " " + lastname);
-
 const n = 3;
 
 console.log(n ** 2, n ** 3);
@@ -96,9 +79,3 @@ console.log(yen);
 let str = "Uzbekistan is my countr";
 let newStr = str.split("n").join("x");
 console.log(newStr);
-
-let str1 = "Uzbekistan is my countr";
-
-let newstr1 = str.replaceAll("i", "x");
-console.log(newStr1);
->>>>>>> 7dde475f1cbc2441c12baba736ab523f448941a8
