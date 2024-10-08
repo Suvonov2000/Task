@@ -1,4 +1,4 @@
-var date = new Date();
+var arr = [`Apple`, 12, `Banana`, `Orange`];
 
-console.log(date);
-console.log(date.getFullYear());
+console.log(arr.length);
+console.log(arr[0]);
