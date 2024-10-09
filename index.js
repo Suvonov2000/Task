@@ -1,13 +1,6 @@
-function factorial(n) {
-  let result = 1;
-  let i = n;
-
-  while (i > 0) {
-    result *= i;
-    i--;
-  }
-  return result;
-}
-
+const sum = 10;
 let n = 5;
-console.log(factorial(n));
+
+for (let i = 1; i <= sum; i++) {
+  console.log(n * i);
+}
