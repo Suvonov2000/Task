@@ -15,3 +15,13 @@ let is_even = function is_even(number) {
 
 console.log(is_even(8));
 console.log(is_even(7));
+
+function reverseString(str) {
+  return str.split("").reverse().join("");
+}
+console.log(reverseString("Hello"));
+
+function greet(name) {
+  console.log(`Hello ${name}`);
+}
+greet(`Alice`);
